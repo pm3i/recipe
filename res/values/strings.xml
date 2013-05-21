@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RECIPE</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="taste">
+         <item >please select taste type</item>
+        <item >chua</item>
+         <item >cay</item>
+          <item >man</item>
+           <item >ngot</item>
+           
+    </string-array>
+    
+     <string-array name="meal">
+          <item >please select meal type</item>
+        <item >Chau A</item>
+         <item >Chau Au</item>
+          <item >Chau Phi</item>
+           <item >Chau My</item>
+           
+    </string-array>
+ <string-array name="sex">
+     <item >please select sex</item>
+        <item >Nam</item>
+         <item >Nu</item>
+           
+    </string-array>
+    
+</resources>

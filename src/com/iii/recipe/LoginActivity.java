@@ -57,12 +57,17 @@ public class LoginActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btnLogin:
+//			Intent intentLogin = new Intent(LoginActivity.this,
+//					Main_tab_Activity.class);
+//			startActivity(intentLogin);
+			
 			btnLogin.setEnabled(false);
-			String username = ((EditText) findViewById(R.id.edtUsername))
+			String username = ((EditText) findViewById(R.id.edtUsernameLogin))
 					.getText().toString().trim();
-			String password = ((EditText) findViewById(R.id.edtPassword))
+			String password = ((EditText) findViewById(R.id.edtPasswordLogin))
 					.getText().toString().trim();
 			login(username, password);
+			
 			break;
 
 		case R.id.txtResister:

@@ -30,21 +30,24 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.iii.recipe.MainRecipe"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.iii.recipe.Main_tab_Activity" >
+        <activity android:name="com.iii.recipe.Main_tab_Activity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
-        <activity android:name="com.iii.recipe.LoginActivity" >
+        <activity android:name="com.iii.recipe.LoginActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
-        <activity android:name="com.iii.recipe.SubmitActivity" >
+        <activity android:name="com.iii.recipe.SubmitActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
-        <activity android:name="com.iii.recipe.RegisterActivity" >
+        <activity android:name="com.iii.recipe.RegisterActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
+        <activity android:name="signup_screen" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="HomeDasBroadScreen" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="Recipe_Screen" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
     </application>
 
 </manifest>

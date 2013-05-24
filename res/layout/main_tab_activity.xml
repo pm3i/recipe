@@ -23,7 +23,7 @@
             android:id="@android:id/tabs"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="#D3D3D6"
+            android:background="#FFFFFF"
             android:layout_weight="0"
              />
         

@@ -27,5 +27,8 @@
          <item >Nu</item>
            
     </string-array>
-    
+     <color name="BackGround">#F9AE75</color>
+    <color name="Header">#91D8F6</color>
+    <color name="TextColor">#3A3935</color>
+     <color name="ButtonDelicious">#F58634</color>
 </resources>

@@ -7,7 +7,7 @@
     android:weightSum="100"
     tools:context=".MainRecipe" >
 
-    <LinearLayout
+    <!-- <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
@@ -22,8 +22,8 @@
             android:gravity="center"
             android:text="LOGO"
             android:textSize="60dp" />
-    </LinearLayout>
-
+    </LinearLayout> -->
+ <include layout="@layout/logo"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

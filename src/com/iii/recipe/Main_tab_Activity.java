@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+@SuppressWarnings("deprecation")
 public class Main_tab_Activity extends TabActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,7 @@ public class Main_tab_Activity extends TabActivity {
 		TabHost.TabSpec homespec = tabHost.newTabSpec("");
 		homespec.setIndicator("",
 				getResources().getDrawable(R.drawable.home));
-		Intent homeIntent = new Intent(Main_tab_Activity.this, SubmitActivity.class);
+		Intent homeIntent = new Intent(Main_tab_Activity.this, HomeDasBroadScreen.class);
 		homespec.setContent(homeIntent);
 		tabHost.addTab(homespec);
 

@@ -3,5 +3,7 @@
 
     <string name="wsregister">http://117.6.131.222:8090/RECIPE/wsregister.php</string>
     <string name="wslogin">http://117.6.131.222:8090/RECIPE/wslogin.php</string>
+    <string name="wsputingredients">http://117.6.131.222:8090/RECIPE/wsputingredients.php</string>
+    <string name="wsaddrecipe">http://117.6.131.222:8090/RECIPE/wsaddrecipe.php</string>
 
 </resources>

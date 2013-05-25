@@ -21,7 +21,7 @@ public class HomeDasBroadScreen extends Activity {
 		imgDasScreSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(getBaseContext(), Recipe_Screen.class));
+				startActivity(new Intent(HomeDasBroadScreen.this, SubmitActivity.class));
 			}
 		});
 	}

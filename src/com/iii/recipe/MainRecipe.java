@@ -7,29 +7,30 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MainRecipe extends Activity implements OnClickListener{
+public class MainRecipe extends Activity implements OnClickListener {
 	private Button btnStarted;
+	public static String username = "";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_recipe);
-		btnStarted=(Button)findViewById(R.id.btnStarted);
+		btnStarted = (Button) findViewById(R.id.btnStarted);
 		btnStarted.setOnClickListener(this);
 	}
-
 
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btnStarted:
-			Intent intentStart = new Intent(MainRecipe.this, LoginActivity.class);
+			Intent intentStart = new Intent(MainRecipe.this,
+					LoginActivity.class);
 			startActivity(intentStart);
 			break;
 		default:
 			break;
 		}
-		
+
 	}
 
 }
